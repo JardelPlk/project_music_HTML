@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Sugestões ou Reclamações</title>
+        <link rel="icon" href="Imagens/icone_musica.ico">
+
+        <style>
+            form * {
+                display: inline-table;
+                margin: 5px 10px;
+            }
+
+            select {
+                width: 175px;
+            }
+        </style>
+    </head>
+    <body>
+        <header><h1><mark>Sugestões ou Reclamações</mark></h1></header>
+
+        <main class="clearfix">
+            <div class="clearfix">
+                <section>
+                    <form action="index.html" method="post">
+                        <fieldset>
+                            <legend>Eviar Resposta</legend>
+                            <fieldset>
+                                <legend>Dados Pessoais</legend>
+                                Nome:<br />
+                                <input type="text" name="nome" autofocus />
+                                <br />
+                                Sobrenome: <br />
+                                <input type="text" name="sobrenome" />
+                                <br />
+                                <fieldset>
+                                    <legend>Sexo</legend>
+                                    <input type="radio" name="sexo" value="masculino" checked />
+                                    Masculino <br />
+                                    <input type="radio" name="sexo" value="feminino" />
+                                    Feminino <br />
+                                    <input type="radio" name="sexo" value="outro" />
+                                    Outro
+                                </fieldset>
+                            </fieldset>
+                            <br />
+                            <fieldset>
+                                <legend>Dados da Sugestão ou Reclamação</legend>
+                                Assunto: <br />
+                                <select>
+                                    <optgroup label="Sugestões">
+                                        <option value="sugestao_conteudo">Conteúdo</option>
+                                        <option value="sugestao_site">Site</option>
+
+                                    </optgroup>
+                                    <optgroup label="Reclamações">
+                                        <option value="reclamacao_conteudo">Conteúdo</option>
+                                        <option value="reclamacao_site">Site</option>
+
+                                    </optgroup>
+                                    <optgroup label="Outros">
+                                        <option value="outro">Outros</option>
+
+                                    </optgroup>
+
+                                </select>
+                                <br />
+                                Mensagem: <br />
+                                <textarea name="mensagem" rows="20 " cols="50"></textarea>
+
+                            </fieldset>
+                            <br />
+
+                            <fieldset>
+                                <legend>Ações</legend>
+                                <input type="submit" value="Enviar">
+                                <input type="reset" value="Limpar">
+                            </fieldset>
+                            <br />
+                        </fieldset>
+                    </form>
+                </section>
+            </div>
+        </main>
+
+
+        <footer><h3><a href="index.html">Voltar a página inicial</a></h3></footer>
+
+    </body>
+</html>
