@@ -1,0 +1,27 @@
+body{
+    background-color: lightgrey;/*Cor de fundo*/
+}
+
+h1{
+    text-align: center;/*Alinhamento do texto*/
+    font-size: 40px;/*Fonte do texto em pixels*/
+    background-color: grey;/*Cor de fundo do h1*/
+}
+
+h2 {
+    text-align: center;
+    background-color: grey;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.banda, .index, .formulario, .generos, .historia, .instrumentos, .musicos, .notas {
+    text-align: center;
+}
+
+.porcentagens {
+    text-align: left;
+}
