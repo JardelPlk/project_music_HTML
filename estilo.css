@@ -13,6 +13,9 @@ body{
     margin-left: 150px;
     margin-right: 150px;
     padding: 10px;
+    text-shadow: 1.5px 1.5px 5px black;
+
+    font-family: "Times New Roman", Times, serif;
 }
 
 .titulosH2 {
@@ -26,6 +29,8 @@ body{
     border-style: outset;
     border-color: gray;
     padding: 5px;
+    text-shadow: 1.5px 1.5px 5px black;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .titulosH2Estilizado {
@@ -37,6 +42,8 @@ body{
     border-style: outset;
     border-color: gray;
     padding: 5px;
+    text-shadow: 1.5px 1.5px 5px black;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .porcentagens {
@@ -49,13 +56,19 @@ body{
     margin-right: 410px;
 }
 
-.formulario, .index, .banda, .instrumentos, .notas, .musicos, .generos {
+.formulario, .index, .banda, .instrumentos, .notas, .musicos, .generos, .historia {
     text-align: center;
     font-size: 20px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
-.imgGenero {
+.imagens {
     text-align: center;
+}
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+    font-family: "Times New Roman", Times, serif;
 }
