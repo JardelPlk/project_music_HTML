@@ -72,3 +72,39 @@ p {
     text-align: justify;
     font-family: "Times New Roman", Times, serif;
 }
+
+.linkIndex {
+    text-decoration: none;
+    background-color: grey;
+    color: lightgrey;
+    text-shadow: 1.5px 1.5px 5px black;
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    background-color: grey;
+    color: lightgrey;
+    text-shadow: 1.5px 1.5px 5px black;
+    padding: 4px;
+}
+
+article, footer {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.listasCabecalhos {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/*a {
+    text-decoration: none;
+    background-color: grey;
+    color: lightgrey;
+    text-shadow: 1.5px 1.5px 5px black;
+    padding: 4px;
+    margin-left: 150px;
+    margin-right: 150px;
+}*/
