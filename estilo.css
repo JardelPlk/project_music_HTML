@@ -1,6 +1,15 @@
 body{
     background-color: silver;/*Cor de fundo*/
+
+    /*background-image: url("Imagens/fundoMusic.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: left;
+
+    margin-right: 100px;
+    background-attachment: fixed;*/
 }
+
 
 .titulosH1 {
     text-align: center;/*Alinhamento do texto*/
@@ -31,6 +40,9 @@ body{
     padding: 5px;
     text-shadow: 1.5px 1.5px 5px black;
     font-family: "Times New Roman", Times, serif;
+
+    position: sticky;
+    top: 0;
 }
 
 .titulosH2Estilizado {
@@ -44,6 +56,9 @@ body{
     padding: 5px;
     text-shadow: 1.5px 1.5px 5px black;
     font-family: "Times New Roman", Times, serif;
+
+    position: sticky;
+    top: 0;
 }
 
 .porcentagens {
@@ -71,6 +86,7 @@ p {
     text-indent: 50px;
     text-align: justify;
     font-family: "Times New Roman", Times, serif;
+    overflow: auto;
 }
 
 .linkIndex {
@@ -98,6 +114,18 @@ article, footer {
     margin-left: 150px;
     margin-right: 150px;
 }
+
+.rolagem {
+    width: auto;
+    height: 400px;
+    overflow: auto;
+}
+
+.claves, .clavesFa, .clavesDo {
+    float: left;
+    margin-left: 20%;
+}
+
 
 /*a {
     text-decoration: none;
