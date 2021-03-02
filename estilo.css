@@ -141,3 +141,11 @@ footer {
     float: left;
     margin-left: 20%;
 }
+.caracSom {
+    background-color: grey;/*Cor de fundo do h1*/
+    color: lightgrey;
+
+    border-style: outset;
+    border-color: grey;
+    text-shadow: 1.5px 1.5px 5px black;
+}
