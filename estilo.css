@@ -106,8 +106,24 @@ a {
 }
 
 article, footer {
+    text-align: center;
     margin-left: 150px;
     margin-right: 150px;
+}
+
+article {
+    margin-top: 10px;
+    border-top: 2px solid black;
+}
+
+footer {
+    font-size: 20px;
+    background-color: grey;/*Cor de fundo do h1*/
+    color: lightgrey;
+
+    border-style: outset;
+    border-color: grey;
+    text-shadow: 1.5px 1.5px 5px black;
 }
 
 .listasCabecalhos {
@@ -125,14 +141,3 @@ article, footer {
     float: left;
     margin-left: 20%;
 }
-
-
-/*a {
-    text-decoration: none;
-    background-color: grey;
-    color: lightgrey;
-    text-shadow: 1.5px 1.5px 5px black;
-    padding: 4px;
-    margin-left: 150px;
-    margin-right: 150px;
-}*/
