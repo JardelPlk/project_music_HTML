@@ -4,118 +4,152 @@
         <meta charset="utf-8" />
         <title>Notas Musicais</title>
         <link rel="icon" href="Imagens/icone_musica.ico">
-        <link rel="stylesheet" href="estilo.css">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
     </head>
-    <body>
 
-        <header><h1 id="topo" class="titulosH1">Notas Musicais</h1></header>
+    <body class="bg-secondary text-center">
 
-        <nav>
-            <h2 class="titulosH2">Conteúdos:</h2>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <header><h1 id="topo" class="text-center text-dark display-4 font-weight-bold">Notas Musicais <i class="fas fa-music"></i></h1></header>
+            </div>
+        </div>
 
-            <ol class="listasCabecalhos">
-                <li><h3><a href="#notas">Notas Musicais</a></h3></li>
-                <li><h3><a href="#simbolos">Símbolos Musicais</a></h3></li>
-                <li><h3><a href="#som">Características Sonoras</a></h3></li>
-                <li><h3><a href="#escrita">Escrita Musical</a></h3></li>
-            </ol>
-        </nav>
+        <div class="container">
 
-        <main class="notas">
-            <div class="clearfix">
-                <section>
+            <div class="row">
+                <div class="col-12">
 
-                    <img src="Imagens/notas.jpg" alt="Imagem com o fundo branco e na frente aparece várias linha de uma partitura se curvando para baixo, tendo uma clave de sol a esquerda, 3 símbolos de sustenido a direita, e a direita ainda em cima das linhas temos algumas colcheias, semi-colcheias, pausa de semi-colcheia, mínima, e acima das linhas tortas no ar algumas colcheias, fusa, mínima." title="Notas Musicais">
+                    <nav>
+                        <h2 class="bg-dark text-white">Conteúdos:</h2>
 
-                    <h2 id="notas" class="titulosH2Estilizado">Quais são as Notas Musicais?</h2>
+                        <ul class="list-group">
+                            <li><h3><a href="#notas" class="list-group-item text-dark font-weight-bold">Notas Musicais</a></h3></li>
+                            <li><h3><a href="#simbolos" class="list-group-item text-dark font-weight-bold">Símbolos Musicais</a></h3></li>
+                            <li><h3><a href="#som" class="list-group-item text-dark font-weight-bold">Características Sonoras</a></h3></li>
+                            <li><h3><a href="#escrita" class="list-group-item text-dark font-weight-bold">Escrita Musical</a></h3></li>
+                        </ul>
+                    </nav>
 
-                    <p>As Notas Musicais são sete: <strong>DÓ – RÉ – MI – FÁ – SOL – LÁ – SI</strong>. Representadas por monossílabos, elas são utilizadas na composição de músicas.</p>
+                    <main class="notas">
+                        <div class="clearfix font-weight-bold">
+                            <section>
 
-                    <p>Como um alfabeto musical, permitem agregar as frequências dos sons, viabilizando a composição musical ou, em outras palavras, uma combinação que gera melodia.</p>
+                                <br />
 
-                    <p>Essa classificação, a que se dá o nome de <ins>“notação musical”</ins>, foi inventada pelo monge e regente italiano Guido D'Arezzo (992-1050). A notação foi inspirada no <ins>“Hino a São João Batista”</ins>, cuja inicial de cada verso corresponde a uma nota musical.</p>
+                                <img src="Imagens/notas.jpg" alt="Imagem com o fundo branco e na frente aparece várias linha de uma partitura se curvando para baixo, tendo uma clave de sol a esquerda, 3 símbolos de sustenido a direita, e a direita ainda em cima das linhas temos algumas colcheias, semi-colcheias, pausa de semi-colcheia, mínima, e acima das linhas tortas no ar algumas colcheias, fusa, mínima." title="Notas Musicais" class="mx-auto d-block rounded" style="width:60%">
 
-                    <p>Em inglês e em alemão, em vez dos monossílabos, são usadas as 7 primeiras letras do alfabeto, as quais apresentam a seguinte correspondência:</p>
+                                <br />
 
-                    <p><strong>A = LÁ, B = SI, C = DÓ, D = RÉ, E = MI, F = FÁ, G = SOL ou H = SOL</strong>, em alemão.</p>
-                </section>
+                                <h2 id="notas" class="bg-dark text-white">Quais são as Notas Musicais?</h2>
 
-                <section>
-                    <h2 id="simbolos" class="titulosH2Estilizado">Símbolos Musicais</h2>
+                                <p class="text-justify">As Notas Musicais são sete: <strong>DÓ – RÉ – MI – FÁ – SOL – LÁ – SI</strong>. Representadas por monossílabos, elas são utilizadas na composição de músicas.</p>
 
-                    <p>Além das notas, existem ainda símbolos musicais muito importantes. Chamados de claves, existem três tipos:</p>
+                                <p class="text-justify">Como um alfabeto musical, permitem agregar as frequências dos sons, viabilizando a composição musical ou, em outras palavras, uma combinação que gera melodia.</p>
 
-                    <div class="claves">
-                        <img src="Imagens/clave_sol.jpg" alt="Imagem possui um fundo branco, tendo 5 linhas retas pretas na horizontal, e a frente tem a clave de sol preta." title="Clave de Sol">
-                        <h4><sup>Clave de Sol</sup></h4>
+                                <p class="text-justify">Essa classificação, a que se dá o nome de <ins>“notação musical”</ins>, foi inventada pelo monge e regente italiano Guido D'Arezzo (992-1050). A notação foi inspirada no <ins>“Hino a São João Batista”</ins>, cuja inicial de cada verso corresponde a uma nota musical.</p>
 
-                    </div>
+                                <p class="text-justify">Em inglês e em alemão, em vez dos monossílabos, são usadas as 7 primeiras letras do alfabeto, as quais apresentam a seguinte correspondência:</p>
 
-                    <div class="clavesFa">
-                        <img src="Imagens/clave_fa.jpg" alt="Imagem possui um fundo branco, tendo 5 linhas retas pretas na horizontal, e a frente tem a clave de fá preta." title="Clave de Fá">
-                        <h4><sup>Clave de Fá</sup></h4>
-                    </div>
+                                <p class="text-justify"><strong>A = LÁ, B = SI, C = DÓ, D = RÉ, E = MI, F = FÁ, G = SOL ou H = SOL</strong>, em alemão.</p>
+                            </section>
+
+                            <section>
+                                <h2 id="simbolos" class="bg-dark text-white">Símbolos Musicais</h2>
+
+                                <p class="text-justify">Além das notas, existem ainda símbolos musicais muito importantes. Chamados de claves, existem três tipos:</p>
+
+                                <div class="claves">
+                                    <img src="Imagens/clave_sol.jpg" alt="Imagem possui um fundo branco, tendo 5 linhas retas pretas na horizontal, e a frente tem a clave de sol preta." title="Clave de Sol" class="mx-auto d-block rounded" style="width:15%">
+                                    <h4><sup>Clave de Sol</sup></h4>
+
+                                </div>
+
+                                <div class="clavesFa">
+                                    <img src="Imagens/clave_fa.jpg" alt="Imagem possui um fundo branco, tendo 5 linhas retas pretas na horizontal, e a frente tem a clave de fá preta." title="Clave de Fá" class="mx-auto d-block rounded" style="width:15%">
+                                    <h4><sup>Clave de Fá</sup></h4>
+                                </div>
 
 
-                    <div class="clavesDo">
-                        <img src="Imagens/clave_dó.jpg" alt="Imagem possui um fundo branco, tendo 5 linhas retas pretas na horizontal, e a frente tem a clave de dó preta." title="Clave de Dó">
-                        <h4><sup>Clave de Dó</sup></h4>
-                    </div>
+                                <div class="clavesDo">
+                                    <img src="Imagens/clave_dó.jpg" alt="Imagem possui um fundo branco, tendo 5 linhas retas pretas na horizontal, e a frente tem a clave de dó preta." title="Clave de Dó" class="mx-auto d-block rounded" style="width:15%">
+                                    <h4><sup>Clave de Dó</sup></h4>
+                                </div>
 
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
+                                <br />
 
-                </section>
 
-                <section>
-                    <h2 id="som" class="titulosH2Estilizado">Características Sonoras</h2>
+                            </section>
 
-                    <h3 class="caracSom">Altura</h3>
-                    <p>A <strong>altura</strong> do som permite classificar a frequência das ondas sonoras. Desta maneira, os sons graves são considerados de baixa frequência, enquanto os sons agudos são os de alta frequência.</p>
+                            <section>
+                                <h2 id="som" class="bg-dark text-white">Características Sonoras</h2>
 
-                    <h3 class="caracSom">Intensidade</h3>
-                    <p>A <strong>intensidade</strong> do som está intimamente relacionada ao volume das ondas sonoras. Em outras palavras, a <strong>intensidade</strong> do som é uma característica sonora relativa ao nível da pressão e da energia presente nas vibrações das ondas sonoras.</p>
+                                <h3 class="bg-dark text-white">Altura</h3>
+                                <p class="text-justify">A <strong>altura</strong> do som permite classificar a frequência das ondas sonoras. Desta maneira, os sons graves são considerados de baixa frequência, enquanto os sons agudos são os de alta frequência.</p>
 
-                    <h3 class="caracSom">Duração</h3>
-                    <p>A <strong>duração</strong> da música está pautada na quantidade de tempo em que ocorre um fenômeno musical. Assim, a duração é um intervalo de tempo de uma nota musical ou o tempo entre duas notas (pausa).</p>
+                                <h3 class="bg-dark text-white">Intensidade</h3>
+                                <p class="text-justify">A <strong>intensidade</strong> do som está intimamente relacionada ao volume das ondas sonoras. Em outras palavras, a <strong>intensidade</strong> do som é uma característica sonora relativa ao nível da pressão e da energia presente nas vibrações das ondas sonoras.</p>
 
-                    <h3 class="caracSom">Timbre</h3>
-                    <p>O <strong>Timbre</strong> é uma característica musical que nos permite classificar a fonte de uma nota musical. Basta ouvir a mesma nota musical em instrumentos diferentes, como o violino e o piano, e o resultado será a percepção de timbres diferentes.</p>
+                                <h3 class="bg-dark text-white">Duração</h3>
+                                <p class="text-justify">A <strong>duração</strong> da música está pautada na quantidade de tempo em que ocorre um fenômeno musical. Assim, a duração é um intervalo de tempo de uma nota musical ou o tempo entre duas notas (pausa).</p>
 
-                    <h3 class="caracSom">Escala</h3>
-                    <p>A <strong>escala</strong> musical é a frequência ordenada do som, isto é, o conjunto das sete notas musicais, com a repetição da primeira. <strong>(Do-Re-Mi-Fá-Sol-Lá-Si-Do)</strong>. Além disso, a <strong>escala</strong> musical pode ser ascendente e descendente dependendo da frequência vibratória dos sons.</p>
-                </section>
+                                <h3 class="bg-dark text-white">Timbre</h3>
+                                <p class="text-justify">O <strong>Timbre</strong> é uma característica musical que nos permite classificar a fonte de uma nota musical. Basta ouvir a mesma nota musical em instrumentos diferentes, como o violino e o piano, e o resultado será a percepção de timbres diferentes.</p>
 
-                <section>
-                    <h2 id="escrita" class="titulosH2Estilizado">Escrita Musical</h2>
-                    <p style="text-align: center;"><sub>As notas musicais são representadas na partitura, que é um conjunto de cinco linhas (pautas ou pentagramas).</sub></p>
-                    <img src="Imagens/partitura.jpg" alt="Imagem possui um fundo branco, tendo 5 linhas retas pretas na horizontal tendo 2 linhas e meia dessas 5 linhas, Na parte superior no centro está escrito 'Asa Branca', no canto superior esquerdo está escrito 'Aluno: Otoniel Vianna', e no canto superior direito está escrito 'Luiz Gonzaga e Hulberto Teixeira'. E abaixo estão as linhas que citei anteriormente formando uma partitura em clave de fá com várias notas colcheias, semínimas, semicolcheias, pausas de mínimas, pausa, semínima, pausas de colcheias, símbolo de ff (forte forte), pp (piano piano (silencioso)), sustenido, 4/4 (tamanho dos compassos)." title="Partitura Asa Branca">
+                                <h3 class="bg-dark text-white">Escala</h3>
+                                <p class="text-justify">A <strong>escala</strong> musical é a frequência ordenada do som, isto é, o conjunto das sete notas musicais, com a repetição da primeira. <strong>(Do-Re-Mi-Fá-Sol-Lá-Si-Do)</strong>. Além disso, a <strong>escala</strong> musical pode ser ascendente e descendente dependendo da frequência vibratória dos sons.</p>
+                            </section>
 
-                    <p style="text-align: center"><sub>As notas também podem ser representadas em cifra:</sub></p>
-                    <img src="Imagens/cifra.jpg" alt="Tem o fundo branco, na parte superior tem as seguintes letras e preto: Em (mi), G (sol), D (ré), C (dó), abaixo dessas letras possui linhas ao contário formando quadradinhos, e em cima de algumas linhas podem ter os números: 1, 2, 3 ou 4 envoltos cada por um círculo preto, que significam os dedos que deve posicionar no instrumento de cordas, formando os acordes, e abaixo disso temos mais 2 letras: Am (lá menor) e C/D (dó com baixo em ré), e abaixo delas estão os mesmos quadradinhos que citei anteriormente." title="Cifra">
+                            <section>
+                                <h2 id="escrita" class="bg-dark text-white">Escrita Musical</h2>
+                                <p style="text-align: center;"><sub>As notas musicais são representadas na partitura, que é um conjunto de cinco linhas (pautas ou pentagramas).</sub></p>
+                                <img src="Imagens/partitura.jpg" alt="Imagem possui um fundo branco, tendo 5 linhas retas pretas na horizontal tendo 2 linhas e meia dessas 5 linhas, Na parte superior no centro está escrito 'Asa Branca', no canto superior esquerdo está escrito 'Aluno: Otoniel Vianna', e no canto superior direito está escrito 'Luiz Gonzaga e Hulberto Teixeira'. E abaixo estão as linhas que citei anteriormente formando uma partitura em clave de fá com várias notas colcheias, semínimas, semicolcheias, pausas de mínimas, pausa, semínima, pausas de colcheias, símbolo de ff (forte forte), pp (piano piano (silencioso)), sustenido, 4/4 (tamanho dos compassos)." title="Partitura Asa Branca" class="mx-auto d-block rounded" style="width:60%">
 
-                    <p style="text-align: center"><sub>Ou como tablaturas:</sub></p>
-                    <img src="Imagens/tablatura.jpg" alt="A imagem tem o fundo branco com 6 linhas retas pretas na horizontal, na esquerda na frente das linhas está escrito TAB na vertical, e na direita estão alguns números em algumas linhas: 5, 7, 5, 7, 5 , 6 e 8, que significam a casa e a corda do instrumento de corda que deve-se tocar" title="Tablatura">
+                                <p style="text-align: center"><sub>As notas também podem ser representadas em cifra:</sub></p>
+                                <img src="Imagens/cifra.jpg" alt="Tem o fundo branco, na parte superior tem as seguintes letras e preto: Em (mi), G (sol), D (ré), C (dó), abaixo dessas letras possui linhas ao contário formando quadradinhos, e em cima de algumas linhas podem ter os números: 1, 2, 3 ou 4 envoltos cada por um círculo preto, que significam os dedos que deve posicionar no instrumento de cordas, formando os acordes, e abaixo disso temos mais 2 letras: Am (lá menor) e C/D (dó com baixo em ré), e abaixo delas estão os mesmos quadradinhos que citei anteriormente." title="Cifra" class="mx-auto d-block rounded" style="width:40%">
 
-                    <p>Após a invenção das notas musicais como conhecemos, no século XI, foi criada uma forma de medição da duração das mesmas, a qual recebeu o nome de mensuralismo. A partir dessa técnica, criada no século XII, foi possível representar a música graficamente.</p>
-                </section>
+                                <p style="text-align: center"><sub>Ou como tablaturas:</sub></p>
+                                <img src="Imagens/tablatura.jpg" alt="A imagem tem o fundo branco com 6 linhas retas pretas na horizontal, na esquerda na frente das linhas está escrito TAB na vertical, e na direita estão alguns números em algumas linhas: 5, 7, 5, 7, 5 , 6 e 8, que significam a casa e a corda do instrumento de corda que deve-se tocar" title="Tablatura" class="mx-auto d-block rounded" style="width:50%">
+
+                                <br />
+
+                                <p class="text-justify">Após a invenção das notas musicais como conhecemos, no século XI, foi criada uma forma de medição da duração das mesmas, a qual recebeu o nome de mensuralismo. A partir dessa técnica, criada no século XII, foi possível representar a música graficamente.</p>
+                            </section>
+                        </div>
+
+                    </main>
+                </div>
             </div>
 
-        </main>
 
-        <article>
-            <h3>Tem curiosidade sobre as notas musicais? Então <a href="https://www.todamateria.com.br/notas-musicais/" target="_blank">clique aqui!</a></h3>
-        </article>
 
-        <footer><h3><a href="#topo">Voltar ao início da página</a></h3>
+        </div>
 
-        <h3><a href="index.html">Voltar a página inicial</a></h3></footer>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <article>
+                    <h3>Tem curiosidade sobre as notas musicais? Então <a href="https://www.todamateria.com.br/notas-musicais/" target="_blank" class="text-light font-weight-bold btn btn-secondary" role="button">clique aqui!</a></h3>
+                </article>
+
+                <footer><h3><a href="#topo" class="text-light font-weight-bold btn btn-secondary" role="button">Voltar ao início da página</a></h3>
+
+                <h3><a href="index.html" class="text-light font-weight-bold btn btn-secondary" role="button">Voltar a página inicial</a></h3></footer>
+            </div>
+        </div>
 
     </body>
 </html>

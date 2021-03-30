@@ -5,95 +5,72 @@
         <title>Sugestões ou Reclamações</title>
         <link rel="icon" href="Imagens/icone_musica.ico">
 
-        <style>
-            form * {
-                display: inline-table;
-                margin: 5px 10px;
-            }
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="bootstrap.min.css">
 
-            select {
-                width: 175px;
-            }
-        </style>
+        <!-- jQuery library -->
+        <script src="jquery.min.js"></script>
 
-        <link rel="stylesheet" href="estilo.css">
+        <!-- Popper JS -->
+        <script src="popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
     </head>
-    <body>
-        <header><h1 class="titulosH1">Sugestões ou Reclamações</h1></header>
 
-        <main class="formulario">
-            <div class="clearfix">
-                <section>
-                    <h2 class="titulosH2Estilizado">Informe seus dados:</h2>
+    <body class="bg-secondary text-center">
 
-                    <form action="index.html" method="post">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <header><h1 class="text-center text-dark display-4 font-weight-bold">Sugestões ou Reclamações</h1></header>
+            </div>
+        </div>
 
-                        <fieldset>
+        <div class="container">
 
-                            <legend>Enviar Resposta</legend>
-                            <fieldset>
-                                <legend>Dados Pessoais</legend>
-                                Nome:<br />
-                                <input type="text" name="nome" autofocus />
-                                <br />
-                                Sobrenome: <br />
-                                <input type="text" name="sobrenome" />
-                                <br />
-                                <fieldset>
-                                    <legend>Sexo</legend>
-                                    <input type="radio" name="sexo" value="masculino" checked />
-                                    Masculino <br />
-                                    <input type="radio" name="sexo" value="feminino" />
-                                    Feminino <br />
-                                    <input type="radio" name="sexo" value="outro" />
-                                    Outro
-                                </fieldset>
-                            </fieldset>
+            <div class="row">
+                <div class="col-12">
 
-                            <br />
-                            <fieldset>
-                                <legend>Dados da Sugestão ou Reclamação</legend>
-                                Assunto: <br />
-                                <select>
-                                    <optgroup label="Sugestões">
-                                        <option value="sugestao_conteudo">Conteúdo</option>
-                                        <option value="sugestao_site">Site</option>
+                    <div class="container">
+                        <h2>Stacked form</h2>
+                        <form action="">
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Digite o email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Senha:</label>
+                                <input type="senha" class="form-control" id="senha" placeholder="Digite a senha" name="senha">
+                            </div>
+                            <div class="form-group form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="remember"> Salvar usuário
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Mensagem:</label>
+                                <input type="mensagem" class="form-control" id="msg" placeholder="Digite a mensagem" name="msg">
+                            </div>
+                            <button type="enviar" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
 
-                                    </optgroup>
-                                    <optgroup label="Reclamações">
-                                        <option value="reclamacao_conteudo">Conteúdo</option>
-                                        <option value="reclamacao_site">Site</option>
+                </div>
+            </div>
 
-                                    </optgroup>
-                                    <optgroup label="Outros">
-                                        <option value="outro">Outros</option>
 
-                                    </optgroup>
 
-                                </select>
-                                <br />
-                                Mensagem: <br />
-                                <textarea name="mensagem" rows="20" cols="50"></textarea>
+        </div>
 
-                            </fieldset>
-                            <br />
-
-                            <fieldset>
-                                <legend>Ações</legend>
-                                <input type="submit" value="Enviar">
-                                <input type="reset" value="Limpar">
-                            </fieldset>
-                            <br />
-                        </fieldset>
-                    </form>
-                </section>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <footer><h3><a href="index.html" class="text-light font-weight-bold btn btn-secondary" role="button">Voltar a página inicial</a></h3></footer>
 
             </div>
-        </main>
-
-
-        <footer><h3><a href="index.html">Voltar a página inicial</a></h3></footer>
+        </div>
 
     </body>
 </html>
